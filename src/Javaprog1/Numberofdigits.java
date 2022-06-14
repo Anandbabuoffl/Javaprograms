@@ -1,19 +1,20 @@
-package javaprograms;
+package Javaprog1;
 
 import java.util.Scanner;
 
-public class Factorialnumber {
+public class Numberofdigits {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the number");
 		int num = scanner.nextInt();
-		int factorial = 1;
-		for (int i = 1; i <= num; i++) {
-			factorial = factorial* i;
+		int count = 0;
+
+		while(num>0) {
+			num=num/10;
+			count++;
 		}
-		System.out.println("Factorial number is " + factorial);
+		System.out.println(count);
 	}
 
 }
-

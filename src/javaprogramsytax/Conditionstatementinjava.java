@@ -1,5 +1,6 @@
 package javaprogramsytax;
 
+
 public class Conditionstatementinjava {
 
 	public static void main(String[] args) {
